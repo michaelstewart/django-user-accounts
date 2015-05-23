@@ -149,7 +149,7 @@ To enable email authentication do the following:
 
 3. ensure ``"account.auth_backends.EmailAuthenticationBackend"`` is in ``AUTHENTICATION_BACKENDS``
 
-If you want to get rid of username you'll need to do some extra work:
+If you want to get rid of usernames you'll need to do some extra work:
 
 1. define your own ``SignupForm`` and ``SignupView`` in your project::
 
